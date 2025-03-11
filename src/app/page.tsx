@@ -17,6 +17,10 @@ import SliderFive from "@/components/Slider/SliderFive";
 import AboutFive from "@/components/Section/About/AboutFive";
 import ServiceSix from "@/components/Section/Service/ServiceSix";
 import ServiceSixSecond from "@/components/Section/Service/ServiceSixSecond";
+import AboutTwo from "@/components/Section/About/AboutTwo";
+import CounterTwo from "@/components/Section/Counter/CounterTwo";
+import ProjectTwo from "@/components/Section/Project/ProjectTwo";
+import ServiceTwo from "@/components/Section/Service/ServiceTwo";
 
 export default function Home() {
   return (
@@ -28,15 +32,21 @@ export default function Home() {
         </header>
         <main className="content">
           <SliderFive />
-          <AboutFive/>
-          <ServiceOne data={serviceData} />
-          <PaymentGatewayOneSecond />
+          <AboutTwo/>
+          <CounterTwo classname='lg:py-10 py-7 border-t border-line' />
+          <ServiceTwo data={serviceData} />
+
+          <ProjectTwo />
+
+
+          {/* <ServiceOne data={serviceData} /> */}
+          {/* <PaymentGatewayOneSecond /> */}
           {/* <ServiceSix data={serviceData}  /> */}
-          <ServiceSixSecond/>
+          <ServiceTwo data={serviceData} />
           
           {/* <PaymentGatewayOneFirst /> */}
           {/* <CaseStudyOne /> */}
-          <FaqsOne />
+          {/* <FaqsOne /> */}
           {/* <FormRequestOne /> */}
           {/* <BlogOne data={blogData} /> */}
           <PartnerOne classname='bg-blue lg:mt-[100px] sm:mt-16 mt-10' />

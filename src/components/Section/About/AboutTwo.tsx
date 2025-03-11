@@ -28,7 +28,7 @@ const AboutTwo = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 flex-col lg:pl-20">
-            <div className="heading3">Financial assessment</div>
+            <div className="heading3"><span className="text-blue">Calcutex </span>Global</div>
             <div className="nav-infor mt-8">
               <div className="list-nav flex items-center gap-10 border-b border-line w-fit">
                 {
@@ -44,9 +44,7 @@ const AboutTwo = () => {
               </div>
               <div className={`description item-filter ${tabActive === 'about us' ? 'show' : 'hide'}`}>
                 <div className="title text-secondary mt-4">
-                  We are devoted team providing premium financial solutions.
-                  Explore our mission, values, and achievements as we empower
-                  clients for a secure financial future.
+                Calcutex Global is a powerhouse team of professional accountants, financial consultants, and tech experts dedicated to providing top-class services to clients worldwide. With a wealth of experience under our belt – at Calcutex Global we are devoted to delivering excellence while maintaining highest standards of data security and data privacy. Our global reach and unwavering commitment to client satisfaction makes us a trusted partner in navigating the complexities of modern accounting, finance and business in general.
                 </div>
                 <div className="more-infor mt-6">
                   <div className="infor flex items-center gap-3">
@@ -129,15 +127,15 @@ const AboutTwo = () => {
                 className="button-main text-white bg-blue hover-button-black text-button rounded-full"
                 href="contact-two.html"
               >
-                Get started
+                Know More
               </a>
-              <a
+              {/* <a
                 className="button-main text-on-surface hover:bg-black hover:text-white hover:border-transparent bg-white text-button rounded-full border-2 border-blue flex items-center gap-2"
                 href="contact-two.html"
               >
                 <i className="ph ph-phone text-xl"></i>
                 <span>(00) 123 456 789</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

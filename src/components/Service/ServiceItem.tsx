@@ -32,7 +32,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 </div>
             }
             {style === 'style-two' &&
-                <div className="service-item py-7 px-6 bg-black rounded-lg border border-line box-shadow-sm hover-box-shadow">
+                <div className="service-item py-7 px-6 bg-white rounded-lg border border-line box-shadow-sm hover-box-shadow">
                     <Link
                         className="service-item-main flex items-center gap-8 h-full"
                         href={"/service/service-detail/[slug]"}
@@ -53,7 +53,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 </div>
             }
             {style === 'style-three' &&
-                <div className="service-item px-8 py-10 bg-black rounded-lg">
+                <div className="service-item px-8 py-10 bg-white rounded-lg">
                     <Link
                         className="service-item-main flex flex-col items-center h-full"
                         href={"/service/service-detail/[slug]"}
@@ -66,7 +66,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 </div>
             }
             {style === 'style-four' &&
-                <div className="service-item p-8 bg-black rounded-lg border border-line hover-box-shadow">
+                <div className="service-item p-8 bg-white rounded-lg border border-line hover-box-shadow">
                     <Link
                         className="service-item-main h-full"
                         href={"/service/service-detail/[slug]"}
@@ -80,7 +80,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 </div>
             }
             {style === 'style-five' &&
-                <div className="service-item p-8 bg-black rounded-lg border border-line hover-box-shadow">
+                <div className="service-item p-8 bg-white rounded-lg border border-line hover-box-shadow">
                     <Link
                         className="service-item-main h-full"
                         href={"/service/service-detail/[slug]"}
@@ -115,7 +115,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 </div>
             }
             {style === 'style-about' &&
-                <div className="service-item py-8 px-7 bg-black rounded-lg hover-box-shadow">
+                <div className="service-item py-8 px-7 bg-white rounded-lg hover-box-shadow">
                     <Link
                         className="service-item-main flex flex-col justify-between h-full"
                         href={"/service/service-detail/[slug]"}
@@ -134,7 +134,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 </div>
             }
             {style === 'style-about-two' &&
-                <div className="service-item px-4 bg-black rounded-lg">
+                <div className="service-item px-4 bg-white rounded-lg">
                     <Link
                         className="service-item-main flex flex-col items-center h-full"
                         href={"/service/service-detail/[slug]"}

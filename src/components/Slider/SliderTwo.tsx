@@ -5,7 +5,7 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 
 const SliderTwo = () => {
     return (
-        <div className="slider-block style-two">
+        <div className="slider-block style-two" style={{ backgroundColor: 'darkblue' }} >
             <div className="slider-main">
                 <div className="slider-item">
                     <div className="container">
@@ -23,10 +23,10 @@ const SliderTwo = () => {
                         </div>
                         <div className="slider-img animate__animated animate__fadeInRight animate__delay-0-2s">
                             <div className="bg-main">
-                                <Image width={5000} height={5000} className="h-full w-full" src="/images/slider/slider2.png" alt="" />
+                                <Image width={5000} height={5000} className="h-full w-full" src="/images/slider/whyus2.png" alt="" />
                             </div>
-                            <Image width={5000} height={5000} className="box-shadow w-[192px]" src="/images/slider/subslider2-1.png" alt="" />
-                            <Image width={5000} height={5000} className="box-shadow w-[278px]" src="/images/slider/subslider2-2.png" alt="" />
+                            {/* <Image width={5000} height={5000} className="box-shadow w-[192px]" src="/images/slider/subslider2-1.png" alt="" /> */}
+                            {/* <Image width={5000} height={5000} className="box-shadow w-[278px]" src="/images/slider/subslider2-2.png" alt="" /> */}
                         </div>
                     </div>
                 </div>
