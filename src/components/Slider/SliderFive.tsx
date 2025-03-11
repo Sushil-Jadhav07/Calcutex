@@ -81,7 +81,7 @@ const SliderFive = () => {
                                 <div className="container">
                                     <div className="text-content flex flex-col justify-between">
                                         <div className="heading2">
-                                        <div className="relative overflow-hidden">
+                                        <div className="relative overflow-hidden text-3xl md:text-xl">
                                                 <span className=" text-blue block relative overflow-hidden">CALCUTEX GLOBAL</span>
                                                 <span className=" text-blue block absolute top-0 left-0 w-full h-full">CALCUTEX GLOBAL</span>
                                             </div>
