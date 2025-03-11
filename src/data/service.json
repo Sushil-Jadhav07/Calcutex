@@ -2,28 +2,28 @@
     {
         "icon": "icon-coin-chair",
         "category": "payment solution",
-        "title": "Cryptocurrency Trading",
+        "title": "Accounting",
         "desc": "Experience the excitement and potential of the cryptocurrency market with our expert trading services.",
         "shortDesc": "Get personalized financial advice to help reach your financial goals."
     },
     {
         "icon": "icon-hand-tick",
         "category": "payment solution",
-        "title": "Portfolio Management",
+        "title": "Taxation",
         "desc": "We analyze market trends, manage risks, and optimize your portfolio to maximize returns and achieve your financial goals.",
         "shortDesc": "Get personalized financial advice to help reach your financial goals."
     },
     {
         "icon": "icon-hand-house",
         "category": "payment solution",
-        "title": "Investment Advice",
+        "title": "Advisory & Consulting",
         "desc": "Our team of experienced advisors will guide you in making informed investment, whether you're a beginner trader.",
         "shortDesc": "Get personalized financial advice to help reach your financial goals."
     },
     {
         "icon": "icon-gear-warning",
         "category": "payment solution",
-        "title": "Risk Management",
+        "title": "Tech Solutions",
         "desc": "We employ industry-leading tools and techniques to protect your investments and minimize potential losses.",
         "shortDesc": "Get personalized financial advice to help reach your financial goals."
     },

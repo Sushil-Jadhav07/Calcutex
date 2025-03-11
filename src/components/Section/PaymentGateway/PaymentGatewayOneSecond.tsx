@@ -45,7 +45,7 @@ const PaymentGatewayOneSecond = () => {
                             }}
                         >
                             <div className="bg-img">
-                                <Image width={5000} height={5000} className="w-full" src="/images/component/gateway2-bg.png" alt="" />
+                                <Image width={5000} height={5000} className="w-full" style={{zIndex: -1}} src="/images/component/whyus.png" alt="" />
                             </div>
                             {/* <div className="feature-item py-4 px-6 rounded-2xl bg-white inline-flex items-center gap-4 box-shadow">
                                 <i className="icon-list text-2xl bg-orange p-4 rounded-2xl"> </i>

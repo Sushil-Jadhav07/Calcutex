@@ -14,7 +14,7 @@ const SliderFive = () => {
                 <div className="prev-arrow flex items-center justify-center">
                     <Icon.CaretLeft className="text-white heading6" weight="bold" />
                 </div>
-                <div className="slider-main">
+                <div className="slider-main " >
                     <Swiper
                         spaceBetween={0}
                         slidesPerView={1}
@@ -31,7 +31,7 @@ const SliderFive = () => {
                             delay: 4000,
                         }}
                     >
-                        <SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className="slider-item slider-first">
                                 <div className="bg-img">
                                     <Image
@@ -65,12 +65,12 @@ const SliderFive = () => {
                                     </div>
                                 </div>
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                         <SwiperSlide>
                             <div className="slider-item slider-second">
                                 <div className="bg-img">
                                     <Image
-                                        src={'/images/slider/1920x874.png'}
+                                        src={'/images/slider/slider1.png'}
                                         width={4000}
                                         height={3000}
                                         alt="bgslider"
@@ -81,23 +81,31 @@ const SliderFive = () => {
                                 <div className="container">
                                     <div className="text-content flex flex-col justify-between">
                                         <div className="heading2">
-                                            <div className="relative overflow-hidden">
-                                                <span className="block relative overflow-hidden">Empower Your</span>
-                                                <span className="block absolute top-0 left-0 w-full h-full">Empower Your</span>
+                                        <div className="relative overflow-hidden">
+                                                <span className=" text-blue block relative overflow-hidden">CALCUTEX GLOBAL</span>
+                                                <span className=" text-blue block absolute top-0 left-0 w-full h-full">CALCUTEX GLOBAL</span>
                                             </div>
-                                            <div className="relative overflow-hidden">
-                                                <span className=" text-blue block relative overflow-hidden">Financial Future</span>
-                                                <span className=" text-blue block absolute top-0 left-0 w-full h-full">Financial Future</span>
+                                            <div className="relative overflow-hidden text-white">
+                                                <span className="block relative overflow-hidden">Transforming Numbers</span>
+                                                <span className="block absolute top-0 left-0 w-full h-full">Transforming Numbers</span>
                                             </div>
+                                            <div className="relative overflow-hidden text-white">
+                                                <span className="block relative overflow-hidden">into Narratives</span>
+                                                <span className="block absolute top-0 left-0 w-full h-full">into Narratives</span>
+                                            </div>
+                                            {/* <div className="relative overflow-hidden">
+                                                <span className=" text-blue block relative overflow-hidden">into Narratives</span>
+                                                <span className=" text-blue block absolute top-0 left-0 w-full h-full">into Narratives</span>
+                                            </div> */}
                                         </div>
-                                        <div className="body2 mt-3 text-secondary">Our platform offers secure and reliable investment <br />opportunities in the rapidly growing world of cryptocurrency.</div>
+                                        {/* <div className="body2 mt-3 text-secondary">Our platform offers secure and reliable investment <br />opportunities in the rapidly growing world of cryptocurrency.</div> */}
                                         <div className="button-block md:mt-10 mt-6"><Link className="button-main bg-blue text-white" href="/service/service-one">Discovery now</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className="slider-item slider-third">
                                 <div className="bg-img">
                                     <Image
@@ -131,7 +139,7 @@ const SliderFive = () => {
                                     </div>
                                 </div>
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
                 <div className="next-arrow flex items-center justify-center">
